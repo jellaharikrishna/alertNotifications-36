@@ -1,0 +1,41 @@
+.success {
+  color: #2dca73;
+}
+.error {
+  color: #ff0b37;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon-content-container {
+  display: flex;
+  margin-right: 10px;
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  margin-right: 20px;
+}
+.heading {
+  font-family: Roboto;
+  margin-top: 0;
+}
+.description {
+  color: #64748b;
+  font-family: Roboto;
+}
+
+@media (min-width: 768px) {
+  .icon-content-container {
+    margin-left: 20px;
+  }
+}

@@ -1,0 +1,23 @@
+.notification-container {
+  border: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.close-icon {
+  height: 30px;
+  width: 30px;
+  align-self: center;
+}
+
+@media (min-width: 768px) {
+  .notification-container {
+    width: 50%;
+  }
+  .close-icon {
+    margin-right: 20px;
+  }
+}
